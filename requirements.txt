@@ -3,3 +3,5 @@ pandas
 streamlit
 python-dotenv
 twelvelabs
+plotly
+deep-translator
