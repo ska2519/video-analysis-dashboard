@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
+from deep_translator import GoogleTranslator
 
 # === 1. Page Configuration ===
 st.set_page_config(page_title="AI Behavior Analysis Dashboard", layout="wide", page_icon="📺")
@@ -8,8 +9,35 @@ st.set_page_config(page_title="AI Behavior Analysis Dashboard", layout="wide", p
 st.title("📺 Home Media Usage Analysis Report")
 st.markdown("Analysis results using **Twelve Labs Marengo (Visual Search)** & **Pegasus (Generative Video Understanding)**")
 
-# === 2. Load Data ===
-DATA_FILE = "analysis_result.csv"
+# === 2. Translation Setup ===
+@st.cache_data
+def translate_text(text, target_lang='ko'):
+    """
+    Translate text to target language using Google Translate
+    Cached to avoid repeated API calls for same text
+    """
+    if not text or text.strip() == "":
+        return text
+    
+    try:
+        translator = GoogleTranslator(source='en', target=target_lang)
+        # Split long text into chunks (Google Translate has limits)
+        if len(text) > 500:
+            # Translate in sentences
+            sentences = text.split('. ')
+            translated = []
+            for sentence in sentences:
+                if sentence.strip():
+                    translated.append(translator.translate(sentence))
+            return '. '.join(translated)
+        else:
+            return translator.translate(text)
+    except Exception as e:
+        st.error(f"Translation error: {e}")
+        return text  # Return original if translation fails
+
+# === 3. Load Data ===
+DATA_FILE = "chapters_result.csv"  # Changed to use chapters result
 
 @st.cache_data
 def load_data():
@@ -56,7 +84,27 @@ st.divider()
 
 # === 4. Sidebar Controls & Filtering ===
 with st.sidebar:
-    st.header("� Analysis Controls")
+    st.header("🔧 Analysis Controls")
+    
+    # Language Toggle (NEW!)
+    st.write("### 🌐 Language")
+    if 'language' not in st.session_state:
+        st.session_state.language = 'en'  # Default to English
+    
+    col_lang1, col_lang2 = st.columns(2)
+    with col_lang1:
+        if st.button("🇺🇸 English", use_container_width=True, 
+                     type="primary" if st.session_state.language == 'en' else "secondary"):
+            st.session_state.language = 'en'
+            st.rerun()
+    with col_lang2:
+        if st.button("🇰🇷 한국어", use_container_width=True,
+                     type="primary" if st.session_state.language == 'ko' else "secondary"):
+            st.session_state.language = 'ko'
+            st.rerun()
+    
+    st.caption(f"Current: {'English' if st.session_state.language == 'en' else '한국어'}")
+    st.divider()
     
     # Toggle: Hide Static Scenes
     st.write("### Filters")

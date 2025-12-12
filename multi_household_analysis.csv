@@ -1,0 +1,248 @@
+household_id,day_number,day_type,video_id,chapter_number,start_time,end_time,duration_seconds,time_of_day,time_range,chapter_title,chapter_summary,timestamp
+A,1,weekday,v_A_1,1,576,3583,3007,night,09:36 - 59:43,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 1.",2025-12-12T17:03:22.402813
+A,1,weekday,v_A_1,2,3669,5501,1832,night,61:09 - 91:41,Evening News (night),"Family watching evening news together. Household A, Day 1.",2025-12-12T17:03:22.402831
+A,1,weekday,v_A_1,3,5624,6799,1175,night,93:44 - 113:19,Cooking (night),"Cooking lunch in kitchen with TV on background. Household A, Day 1.",2025-12-12T17:03:22.402838
+A,1,weekday,v_A_1,4,7037,8928,1891,night,117:17 - 148:48,Evening News (night),"Family watching evening news together. Household A, Day 1.",2025-12-12T17:03:22.402844
+A,1,weekday,v_A_1,5,9315,12530,3215,night,155:15 - 208:50,Morning News (night),"Watching morning news while drinking coffee. Household A, Day 1.",2025-12-12T17:03:22.402850
+A,1,weekday,v_A_1,6,13026,16527,3501,night,217:06 - 275:27,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 1.",2025-12-12T17:03:22.402856
+A,1,weekday,v_A_1,7,16713,17967,1254,night,278:33 - 299:27,Movie Night (night),"Family watching a movie with lights dimmed. Household A, Day 1.",2025-12-12T17:03:22.402861
+A,1,weekday,v_A_1,8,18498,21252,2754,night,308:18 - 354:12,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 1.",2025-12-12T17:03:22.402866
+A,1,weekday,v_A_1,9,21647,23144,1497,morning,360:47 - 385:44,Morning News (morning),"Watching morning news while drinking coffee. Household A, Day 1.",2025-12-12T17:03:22.402872
+A,1,weekday,v_A_1,10,23579,25454,1875,morning,392:59 - 424:14,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household A, Day 1.",2025-12-12T17:03:22.402878
+A,1,weekday,v_A_1,11,25878,28873,2995,morning,431:18 - 481:13,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household A, Day 1.",2025-12-12T17:03:22.402882
+A,1,weekday,v_A_1,12,29353,32130,2777,morning,489:13 - 535:30,Evening News (morning),"Family watching evening news together. Household A, Day 1.",2025-12-12T17:03:22.402888
+A,1,weekday,v_A_1,13,32202,34686,2484,morning,536:42 - 578:06,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household A, Day 1.",2025-12-12T17:03:22.402892
+A,2,weekday,v_A_2,1,575,2989,2414,night,09:35 - 49:49,Evening News (night),"Family watching evening news together. Household A, Day 2.",2025-12-12T17:03:22.402900
+A,2,weekday,v_A_2,2,3235,4626,1391,night,53:55 - 77:06,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 2.",2025-12-12T17:03:22.402905
+A,2,weekday,v_A_2,3,4731,6882,2151,night,78:51 - 114:42,Phone Usage (night),"Watching TV while scrolling on smartphone. Household A, Day 2.",2025-12-12T17:03:22.402910
+A,2,weekday,v_A_2,4,7136,9095,1959,night,118:56 - 151:35,Evening News (night),"Family watching evening news together. Household A, Day 2.",2025-12-12T17:03:22.402918
+A,2,weekday,v_A_2,5,9356,10002,646,night,155:56 - 166:42,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 2.",2025-12-12T17:03:22.402923
+A,2,weekday,v_A_2,6,10280,12246,1966,night,171:20 - 204:06,Cooking (night),"Cooking lunch in kitchen with TV on background. Household A, Day 2.",2025-12-12T17:03:22.402928
+A,3,weekend,v_A_3,1,585,2480,1895,night,09:45 - 41:20,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 3.",2025-12-12T17:03:22.402934
+A,3,weekend,v_A_3,2,2849,4761,1912,night,47:29 - 79:21,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 3.",2025-12-12T17:03:22.402939
+A,3,weekend,v_A_3,3,5117,8291,3174,night,85:17 - 138:11,Morning News (night),"Watching morning news while drinking coffee. Household A, Day 3.",2025-12-12T17:03:22.402944
+A,3,weekend,v_A_3,4,8711,10454,1743,night,145:11 - 174:14,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 3.",2025-12-12T17:03:22.402955
+A,3,weekend,v_A_3,5,10799,13617,2818,night,179:59 - 226:57,Phone Usage (night),"Watching TV while scrolling on smartphone. Household A, Day 3.",2025-12-12T17:03:22.402973
+A,3,weekend,v_A_3,6,14053,17356,3303,night,234:13 - 289:16,Cooking (night),"Cooking lunch in kitchen with TV on background. Household A, Day 3.",2025-12-12T17:03:22.402980
+A,3,weekend,v_A_3,7,17722,19906,2184,night,295:22 - 331:46,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 3.",2025-12-12T17:03:22.402986
+A,3,weekend,v_A_3,8,20404,22385,1981,night,340:04 - 373:05,Cooking (night),"Cooking lunch in kitchen with TV on background. Household A, Day 3.",2025-12-12T17:03:22.402992
+A,3,weekend,v_A_3,9,22778,23907,1129,morning,379:38 - 398:27,Documentary (morning),"Sitting on sofa watching nature documentary. Household A, Day 3.",2025-12-12T17:03:22.402997
+A,4,weekend,v_A_4,1,417,3087,2670,night,06:57 - 51:27,Morning News (night),"Watching morning news while drinking coffee. Household A, Day 4.",2025-12-12T17:03:22.403005
+A,4,weekend,v_A_4,2,3407,6250,2843,night,56:47 - 104:10,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 4.",2025-12-12T17:03:22.403011
+A,4,weekend,v_A_4,3,6640,8422,1782,night,110:40 - 140:22,Documentary (night),"Sitting on sofa watching nature documentary. Household A, Day 4.",2025-12-12T17:03:22.403016
+A,4,weekend,v_A_4,4,8799,10233,1434,night,146:39 - 170:33,Phone Usage (night),"Watching TV while scrolling on smartphone. Household A, Day 4.",2025-12-12T17:03:22.403020
+A,4,weekend,v_A_4,5,10518,12386,1868,night,175:18 - 206:26,Movie Night (night),"Family watching a movie with lights dimmed. Household A, Day 4.",2025-12-12T17:03:22.403025
+A,4,weekend,v_A_4,6,12455,15357,2902,night,207:35 - 255:57,Movie Night (night),"Family watching a movie with lights dimmed. Household A, Day 4.",2025-12-12T17:03:22.403030
+A,4,weekend,v_A_4,7,15597,17719,2122,night,259:57 - 295:19,Phone Usage (night),"Watching TV while scrolling on smartphone. Household A, Day 4.",2025-12-12T17:03:22.403036
+A,4,weekend,v_A_4,8,18310,20234,1924,night,305:10 - 337:14,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household A, Day 4.",2025-12-12T17:03:22.403041
+A,4,weekend,v_A_4,9,20325,23152,2827,night,338:45 - 385:52,Morning News (night),"Watching morning news while drinking coffee. Household A, Day 4.",2025-12-12T17:03:22.403045
+B,1,weekday,v_B_1,1,488,2750,2262,night,08:08 - 45:50,Documentary (night),"Sitting on sofa watching nature documentary. Household B, Day 1.",2025-12-12T17:03:22.403052
+B,1,weekday,v_B_1,2,3081,4254,1173,night,51:21 - 70:54,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 1.",2025-12-12T17:03:22.403057
+B,1,weekday,v_B_1,3,4336,7528,3192,night,72:16 - 125:28,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 1.",2025-12-12T17:03:22.403062
+B,1,weekday,v_B_1,4,7814,8553,739,night,130:14 - 142:33,Documentary (night),"Sitting on sofa watching nature documentary. Household B, Day 1.",2025-12-12T17:03:22.403067
+B,1,weekday,v_B_1,5,9064,12119,3055,night,151:04 - 201:59,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 1.",2025-12-12T17:03:22.403072
+B,1,weekday,v_B_1,6,12657,15523,2866,night,210:57 - 258:43,Documentary (night),"Sitting on sofa watching nature documentary. Household B, Day 1.",2025-12-12T17:03:22.403076
+B,1,weekday,v_B_1,7,16056,17708,1652,night,267:36 - 295:08,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 1.",2025-12-12T17:03:22.403081
+B,1,weekday,v_B_1,8,17856,18517,661,night,297:36 - 308:37,Morning News (night),"Watching morning news while drinking coffee. Household B, Day 1.",2025-12-12T17:03:22.403086
+B,1,weekday,v_B_1,9,18832,21962,3130,night,313:52 - 366:02,Morning News (night),"Watching morning news while drinking coffee. Household B, Day 1.",2025-12-12T17:03:22.403091
+B,1,weekday,v_B_1,10,22550,25474,2924,morning,375:50 - 424:34,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household B, Day 1.",2025-12-12T17:03:22.403096
+B,1,weekday,v_B_1,11,25963,27529,1566,morning,432:43 - 458:49,Documentary (morning),"Sitting on sofa watching nature documentary. Household B, Day 1.",2025-12-12T17:03:22.403101
+B,1,weekday,v_B_1,12,27763,28822,1059,morning,462:43 - 480:22,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household B, Day 1.",2025-12-12T17:03:22.403105
+B,1,weekday,v_B_1,13,29073,30521,1448,morning,484:33 - 508:41,Documentary (morning),"Sitting on sofa watching nature documentary. Household B, Day 1.",2025-12-12T17:03:22.403110
+B,1,weekday,v_B_1,14,30961,31587,626,morning,516:01 - 526:27,Movie Night (morning),"Family watching a movie with lights dimmed. Household B, Day 1.",2025-12-12T17:03:22.403115
+B,2,weekday,v_B_2,1,231,1888,1657,night,03:51 - 31:28,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403121
+B,2,weekday,v_B_2,2,2082,5391,3309,night,34:42 - 89:51,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 2.",2025-12-12T17:03:22.403126
+B,2,weekday,v_B_2,3,5922,8835,2913,night,98:42 - 147:15,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403134
+B,2,weekday,v_B_2,4,9251,11284,2033,night,154:11 - 188:04,Evening News (night),"Family watching evening news together. Household B, Day 2.",2025-12-12T17:03:22.403139
+B,2,weekday,v_B_2,5,11683,14037,2354,night,194:43 - 233:57,Documentary (night),"Sitting on sofa watching nature documentary. Household B, Day 2.",2025-12-12T17:03:22.403144
+B,2,weekday,v_B_2,6,14592,16314,1722,night,243:12 - 271:54,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403167
+B,2,weekday,v_B_2,7,16755,19678,2923,night,279:15 - 327:58,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403175
+B,2,weekday,v_B_2,8,20111,21719,1608,night,335:11 - 361:59,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403180
+B,2,weekday,v_B_2,9,22217,23359,1142,morning,370:17 - 389:19,Documentary (morning),"Sitting on sofa watching nature documentary. Household B, Day 2.",2025-12-12T17:03:22.403185
+B,2,weekday,v_B_2,10,23837,26419,2582,morning,397:17 - 440:19,Morning News (morning),"Watching morning news while drinking coffee. Household B, Day 2.",2025-12-12T17:03:22.403190
+B,2,weekday,v_B_2,11,26904,30168,3264,morning,448:24 - 502:48,Movie Night (morning),"Family watching a movie with lights dimmed. Household B, Day 2.",2025-12-12T17:03:22.403195
+B,2,weekday,v_B_2,12,30238,32693,2455,morning,503:58 - 544:53,Documentary (morning),"Sitting on sofa watching nature documentary. Household B, Day 2.",2025-12-12T17:03:22.403200
+B,2,weekday,v_B_2,13,33200,35624,2424,morning,553:20 - 593:44,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403204
+B,2,weekday,v_B_2,14,35895,37552,1657,morning,598:15 - 625:52,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household B, Day 2.",2025-12-12T17:03:22.403209
+B,2,weekday,v_B_2,15,37694,38892,1198,morning,628:14 - 648:12,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household B, Day 2.",2025-12-12T17:03:22.403214
+B,3,weekend,v_B_3,1,559,2739,2180,night,09:19 - 45:39,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 3.",2025-12-12T17:03:22.403220
+B,3,weekend,v_B_3,2,2996,3474,478,night,49:56 - 57:54,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 3.",2025-12-12T17:03:22.403225
+B,3,weekend,v_B_3,3,3674,4199,525,night,61:14 - 69:59,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 3.",2025-12-12T17:03:22.403230
+B,3,weekend,v_B_3,4,4386,5637,1251,night,73:06 - 93:57,Evening News (night),"Family watching evening news together. Household B, Day 3.",2025-12-12T17:03:22.403235
+B,3,weekend,v_B_3,5,5990,8803,2813,night,99:50 - 146:43,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 3.",2025-12-12T17:03:22.403240
+B,3,weekend,v_B_3,6,9292,9955,663,night,154:52 - 165:55,Morning News (night),"Watching morning news while drinking coffee. Household B, Day 3.",2025-12-12T17:03:22.403245
+B,3,weekend,v_B_3,7,10124,12579,2455,night,168:44 - 209:39,Evening News (night),"Family watching evening news together. Household B, Day 3.",2025-12-12T17:03:22.403250
+B,3,weekend,v_B_3,8,13058,15729,2671,night,217:38 - 262:09,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 3.",2025-12-12T17:03:22.403255
+B,3,weekend,v_B_3,9,16101,18875,2774,night,268:21 - 314:35,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 3.",2025-12-12T17:03:22.403262
+B,3,weekend,v_B_3,10,19246,21077,1831,night,320:46 - 351:17,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 3.",2025-12-12T17:03:22.403267
+B,3,weekend,v_B_3,11,21145,22734,1589,night,352:25 - 378:54,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 3.",2025-12-12T17:03:22.403279
+B,3,weekend,v_B_3,12,23189,25383,2194,morning,386:29 - 423:03,Evening News (morning),"Family watching evening news together. Household B, Day 3.",2025-12-12T17:03:22.403289
+B,4,weekend,v_B_4,1,212,2805,2593,night,03:32 - 46:45,Evening News (night),"Family watching evening news together. Household B, Day 4.",2025-12-12T17:03:22.403316
+B,4,weekend,v_B_4,2,2919,6145,3226,night,48:39 - 102:25,Phone Usage (night),"Watching TV while scrolling on smartphone. Household B, Day 4.",2025-12-12T17:03:22.403321
+B,4,weekend,v_B_4,3,6261,7589,1328,night,104:21 - 126:29,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 4.",2025-12-12T17:03:22.403326
+B,4,weekend,v_B_4,4,8051,10792,2741,night,134:11 - 179:52,Evening News (night),"Family watching evening news together. Household B, Day 4.",2025-12-12T17:03:22.403331
+B,4,weekend,v_B_4,5,10923,12051,1128,night,182:03 - 200:51,Evening News (night),"Family watching evening news together. Household B, Day 4.",2025-12-12T17:03:22.403336
+B,4,weekend,v_B_4,6,12429,14880,2451,night,207:09 - 248:00,Documentary (night),"Sitting on sofa watching nature documentary. Household B, Day 4.",2025-12-12T17:03:22.403340
+B,4,weekend,v_B_4,7,15216,17263,2047,night,253:36 - 287:43,Movie Night (night),"Family watching a movie with lights dimmed. Household B, Day 4.",2025-12-12T17:03:22.403345
+B,4,weekend,v_B_4,8,17784,19259,1475,night,296:24 - 320:59,Cooking (night),"Cooking lunch in kitchen with TV on background. Household B, Day 4.",2025-12-12T17:03:22.403350
+B,4,weekend,v_B_4,9,19409,20630,1221,night,323:29 - 343:50,Evening News (night),"Family watching evening news together. Household B, Day 4.",2025-12-12T17:03:22.403360
+B,4,weekend,v_B_4,10,21171,22457,1286,night,352:51 - 374:17,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household B, Day 4.",2025-12-12T17:03:22.403369
+B,4,weekend,v_B_4,11,22894,26325,3431,morning,381:34 - 438:45,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household B, Day 4.",2025-12-12T17:03:22.403375
+B,4,weekend,v_B_4,12,26551,27095,544,morning,442:31 - 451:35,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household B, Day 4.",2025-12-12T17:03:22.403401
+B,4,weekend,v_B_4,13,27595,29628,2033,morning,459:55 - 493:48,Documentary (morning),"Sitting on sofa watching nature documentary. Household B, Day 4.",2025-12-12T17:03:22.403407
+C,1,weekday,v_C_1,1,394,1629,1235,night,06:34 - 27:09,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 1.",2025-12-12T17:03:22.403413
+C,1,weekday,v_C_1,2,1722,4053,2331,night,28:42 - 67:33,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 1.",2025-12-12T17:03:22.403418
+C,1,weekday,v_C_1,3,4189,6778,2589,night,69:49 - 112:58,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 1.",2025-12-12T17:03:22.403429
+C,1,weekday,v_C_1,4,7026,9118,2092,night,117:06 - 151:58,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household C, Day 1.",2025-12-12T17:03:22.403434
+C,1,weekday,v_C_1,5,9438,10515,1077,night,157:18 - 175:15,Evening News (night),"Family watching evening news together. Household C, Day 1.",2025-12-12T17:03:22.403438
+C,1,weekday,v_C_1,6,10864,12303,1439,night,181:04 - 205:03,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 1.",2025-12-12T17:03:22.403450
+C,1,weekday,v_C_1,7,12754,13494,740,night,212:34 - 224:54,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 1.",2025-12-12T17:03:22.403455
+C,1,weekday,v_C_1,8,13627,15243,1616,night,227:07 - 254:03,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 1.",2025-12-12T17:03:22.403462
+C,1,weekday,v_C_1,9,15529,18585,3056,night,258:49 - 309:45,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 1.",2025-12-12T17:03:22.403467
+C,1,weekday,v_C_1,10,18847,22179,3332,night,314:07 - 369:39,Documentary (night),"Sitting on sofa watching nature documentary. Household C, Day 1.",2025-12-12T17:03:22.403472
+C,1,weekday,v_C_1,11,22277,23932,1655,morning,371:17 - 398:52,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household C, Day 1.",2025-12-12T17:03:22.403482
+C,1,weekday,v_C_1,12,24152,25406,1254,morning,402:32 - 423:26,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household C, Day 1.",2025-12-12T17:03:22.403488
+C,2,weekday,v_C_2,1,545,2885,2340,night,09:05 - 48:05,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 2.",2025-12-12T17:03:22.403494
+C,2,weekday,v_C_2,2,2957,3934,977,night,49:17 - 65:34,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 2.",2025-12-12T17:03:22.403499
+C,2,weekday,v_C_2,3,4332,6328,1996,night,72:12 - 105:28,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 2.",2025-12-12T17:03:22.403504
+C,2,weekday,v_C_2,4,6560,8035,1475,night,109:20 - 133:55,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 2.",2025-12-12T17:03:22.403508
+C,2,weekday,v_C_2,5,8515,12093,3578,night,141:55 - 201:33,Phone Usage (night),"Watching TV while scrolling on smartphone. Household C, Day 2.",2025-12-12T17:03:22.403513
+C,2,weekday,v_C_2,6,12315,13168,853,night,205:15 - 219:28,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 2.",2025-12-12T17:03:22.403517
+C,2,weekday,v_C_2,7,13504,14678,1174,night,225:04 - 244:38,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 2.",2025-12-12T17:03:22.403525
+C,3,weekend,v_C_3,1,238,2982,2744,night,03:58 - 49:42,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 3.",2025-12-12T17:03:22.403533
+C,3,weekend,v_C_3,2,3459,4615,1156,night,57:39 - 76:55,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 3.",2025-12-12T17:03:22.403562
+C,3,weekend,v_C_3,3,5173,5728,555,night,86:13 - 95:28,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 3.",2025-12-12T17:03:22.403582
+C,3,weekend,v_C_3,4,5916,9065,3149,night,98:36 - 151:05,Phone Usage (night),"Watching TV while scrolling on smartphone. Household C, Day 3.",2025-12-12T17:03:22.403589
+C,3,weekend,v_C_3,5,9424,10818,1394,night,157:04 - 180:18,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 3.",2025-12-12T17:03:22.403615
+C,3,weekend,v_C_3,6,10940,14297,3357,night,182:20 - 238:17,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 3.",2025-12-12T17:03:22.403620
+C,3,weekend,v_C_3,7,14708,17220,2512,night,245:08 - 287:00,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 3.",2025-12-12T17:03:22.403625
+C,3,weekend,v_C_3,8,17325,19738,2413,night,288:45 - 328:58,Cooking (night),"Cooking lunch in kitchen with TV on background. Household C, Day 3.",2025-12-12T17:03:22.403630
+C,3,weekend,v_C_3,9,20087,22856,2769,night,334:47 - 380:56,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 3.",2025-12-12T17:03:22.403635
+C,3,weekend,v_C_3,10,23433,26488,3055,morning,390:33 - 441:28,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household C, Day 3.",2025-12-12T17:03:22.403640
+C,3,weekend,v_C_3,11,26664,28859,2195,morning,444:24 - 480:59,Movie Night (morning),"Family watching a movie with lights dimmed. Household C, Day 3.",2025-12-12T17:03:22.403645
+C,3,weekend,v_C_3,12,29386,30381,995,morning,489:46 - 506:21,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household C, Day 3.",2025-12-12T17:03:22.403650
+C,3,weekend,v_C_3,13,30906,33729,2823,morning,515:06 - 562:09,Documentary (morning),"Sitting on sofa watching nature documentary. Household C, Day 3.",2025-12-12T17:03:22.403655
+C,4,weekend,v_C_4,1,215,632,417,night,03:35 - 10:32,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 4.",2025-12-12T17:03:22.403661
+C,4,weekend,v_C_4,2,798,4118,3320,night,13:18 - 68:38,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household C, Day 4.",2025-12-12T17:03:22.403666
+C,4,weekend,v_C_4,3,4454,6926,2472,night,74:14 - 115:26,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household C, Day 4.",2025-12-12T17:03:22.403670
+C,4,weekend,v_C_4,4,7427,9704,2277,night,123:47 - 161:44,Evening News (night),"Family watching evening news together. Household C, Day 4.",2025-12-12T17:03:22.403675
+C,4,weekend,v_C_4,5,9849,11799,1950,night,164:09 - 196:39,Movie Night (night),"Family watching a movie with lights dimmed. Household C, Day 4.",2025-12-12T17:03:22.403680
+C,4,weekend,v_C_4,6,12397,12890,493,night,206:37 - 214:50,Phone Usage (night),"Watching TV while scrolling on smartphone. Household C, Day 4.",2025-12-12T17:03:22.403685
+C,4,weekend,v_C_4,7,13092,15089,1997,night,218:12 - 251:29,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 4.",2025-12-12T17:03:22.403690
+C,4,weekend,v_C_4,8,15294,15943,649,night,254:54 - 265:43,Evening News (night),"Family watching evening news together. Household C, Day 4.",2025-12-12T17:03:22.403695
+C,4,weekend,v_C_4,9,16221,17697,1476,night,270:21 - 294:57,Phone Usage (night),"Watching TV while scrolling on smartphone. Household C, Day 4.",2025-12-12T17:03:22.403699
+C,4,weekend,v_C_4,10,18108,20045,1937,night,301:48 - 334:05,Morning News (night),"Watching morning news while drinking coffee. Household C, Day 4.",2025-12-12T17:03:22.403704
+C,4,weekend,v_C_4,11,20351,23340,2989,night,339:11 - 389:00,Documentary (night),"Sitting on sofa watching nature documentary. Household C, Day 4.",2025-12-12T17:03:22.403711
+C,4,weekend,v_C_4,12,23444,23753,309,morning,390:44 - 395:53,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household C, Day 4.",2025-12-12T17:03:22.403715
+D,1,weekday,v_D_1,1,192,574,382,night,03:12 - 09:34,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 1.",2025-12-12T17:03:22.403722
+D,1,weekday,v_D_1,2,952,1860,908,night,15:52 - 31:00,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household D, Day 1.",2025-12-12T17:03:22.403729
+D,1,weekday,v_D_1,3,2048,4269,2221,night,34:08 - 71:09,Documentary (night),"Sitting on sofa watching nature documentary. Household D, Day 1.",2025-12-12T17:03:22.403763
+D,1,weekday,v_D_1,4,4724,6787,2063,night,78:44 - 113:07,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household D, Day 1.",2025-12-12T17:03:22.403769
+D,1,weekday,v_D_1,5,7032,7614,582,night,117:12 - 126:54,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 1.",2025-12-12T17:03:22.403774
+D,1,weekday,v_D_1,6,8203,11550,3347,night,136:43 - 192:30,Movie Night (night),"Family watching a movie with lights dimmed. Household D, Day 1.",2025-12-12T17:03:22.403779
+D,1,weekday,v_D_1,7,11826,14407,2581,night,197:06 - 240:07,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 1.",2025-12-12T17:03:22.403784
+D,1,weekday,v_D_1,8,14572,16303,1731,night,242:52 - 271:43,Evening News (night),"Family watching evening news together. Household D, Day 1.",2025-12-12T17:03:22.403788
+D,1,weekday,v_D_1,9,16794,17501,707,night,279:54 - 291:41,Documentary (night),"Sitting on sofa watching nature documentary. Household D, Day 1.",2025-12-12T17:03:22.403794
+D,1,weekday,v_D_1,10,17595,20159,2564,night,293:15 - 335:59,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 1.",2025-12-12T17:03:22.403798
+D,1,weekday,v_D_1,11,20640,22975,2335,night,344:00 - 382:55,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 1.",2025-12-12T17:03:22.403803
+D,1,weekday,v_D_1,12,23042,23599,557,morning,384:02 - 393:19,Movie Night (morning),"Family watching a movie with lights dimmed. Household D, Day 1.",2025-12-12T17:03:22.403807
+D,1,weekday,v_D_1,13,23824,26315,2491,morning,397:04 - 438:35,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household D, Day 1.",2025-12-12T17:03:22.403812
+D,2,weekday,v_D_2,1,178,2894,2716,night,02:58 - 48:14,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household D, Day 2.",2025-12-12T17:03:22.403818
+D,2,weekday,v_D_2,2,3372,3739,367,night,56:12 - 62:19,Phone Usage (night),"Watching TV while scrolling on smartphone. Household D, Day 2.",2025-12-12T17:03:22.403823
+D,2,weekday,v_D_2,3,3850,6909,3059,night,64:10 - 115:09,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 2.",2025-12-12T17:03:22.403831
+D,2,weekday,v_D_2,4,6979,8128,1149,night,116:19 - 135:28,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 2.",2025-12-12T17:03:22.403836
+D,2,weekday,v_D_2,5,8595,9747,1152,night,143:15 - 162:27,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household D, Day 2.",2025-12-12T17:03:22.403841
+D,2,weekday,v_D_2,6,9897,10505,608,night,164:57 - 175:05,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 2.",2025-12-12T17:03:22.403857
+D,2,weekday,v_D_2,7,10812,13011,2199,night,180:12 - 216:51,Documentary (night),"Sitting on sofa watching nature documentary. Household D, Day 2.",2025-12-12T17:03:22.403863
+D,2,weekday,v_D_2,8,13205,15570,2365,night,220:05 - 259:30,Evening News (night),"Family watching evening news together. Household D, Day 2.",2025-12-12T17:03:22.403868
+D,2,weekday,v_D_2,9,15714,16457,743,night,261:54 - 274:17,Evening News (night),"Family watching evening news together. Household D, Day 2.",2025-12-12T17:03:22.403873
+D,3,weekend,v_D_3,1,460,3908,3448,night,07:40 - 65:08,Movie Night (night),"Family watching a movie with lights dimmed. Household D, Day 3.",2025-12-12T17:03:22.403879
+D,3,weekend,v_D_3,2,4304,6170,1866,night,71:44 - 102:50,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 3.",2025-12-12T17:03:22.403884
+D,3,weekend,v_D_3,3,6705,8736,2031,night,111:45 - 145:36,Evening News (night),"Family watching evening news together. Household D, Day 3.",2025-12-12T17:03:22.403889
+D,3,weekend,v_D_3,4,9050,12192,3142,night,150:50 - 203:12,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 3.",2025-12-12T17:03:22.403893
+D,3,weekend,v_D_3,5,12602,15101,2499,night,210:02 - 251:41,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 3.",2025-12-12T17:03:22.403898
+D,3,weekend,v_D_3,6,15473,15885,412,night,257:53 - 264:45,Documentary (night),"Sitting on sofa watching nature documentary. Household D, Day 3.",2025-12-12T17:03:22.403905
+D,3,weekend,v_D_3,7,16424,16728,304,night,273:44 - 278:48,Documentary (night),"Sitting on sofa watching nature documentary. Household D, Day 3.",2025-12-12T17:03:22.403910
+D,3,weekend,v_D_3,8,17080,19866,2786,night,284:40 - 331:06,Cooking (night),"Cooking lunch in kitchen with TV on background. Household D, Day 3.",2025-12-12T17:03:22.403915
+D,3,weekend,v_D_3,9,20115,22622,2507,night,335:15 - 377:02,Phone Usage (night),"Watching TV while scrolling on smartphone. Household D, Day 3.",2025-12-12T17:03:22.403941
+D,3,weekend,v_D_3,10,22885,25216,2331,morning,381:25 - 420:16,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household D, Day 3.",2025-12-12T17:03:22.403948
+D,3,weekend,v_D_3,11,25547,28386,2839,morning,425:47 - 473:06,Movie Night (morning),"Family watching a movie with lights dimmed. Household D, Day 3.",2025-12-12T17:03:22.403953
+D,3,weekend,v_D_3,12,28502,30687,2185,morning,475:02 - 511:27,Documentary (morning),"Sitting on sofa watching nature documentary. Household D, Day 3.",2025-12-12T17:03:22.403957
+D,4,weekend,v_D_4,1,489,3864,3375,night,08:09 - 64:24,Movie Night (night),"Family watching a movie with lights dimmed. Household D, Day 4.",2025-12-12T17:03:22.403970
+D,4,weekend,v_D_4,2,4369,6836,2467,night,72:49 - 113:56,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 4.",2025-12-12T17:03:22.403975
+D,4,weekend,v_D_4,3,7248,9272,2024,night,120:48 - 154:32,Morning News (night),"Watching morning news while drinking coffee. Household D, Day 4.",2025-12-12T17:03:22.404000
+D,4,weekend,v_D_4,4,9491,12359,2868,night,158:11 - 205:59,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household D, Day 4.",2025-12-12T17:03:22.404009
+D,4,weekend,v_D_4,5,12940,14234,1294,night,215:40 - 237:14,Movie Night (night),"Family watching a movie with lights dimmed. Household D, Day 4.",2025-12-12T17:03:22.404018
+D,4,weekend,v_D_4,6,14295,14879,584,night,238:15 - 247:59,Phone Usage (night),"Watching TV while scrolling on smartphone. Household D, Day 4.",2025-12-12T17:03:22.404023
+E,1,weekday,v_E_1,1,141,2536,2395,night,02:21 - 42:16,Movie Night (night),"Family watching a movie with lights dimmed. Household E, Day 1.",2025-12-12T17:03:22.404030
+E,1,weekday,v_E_1,2,2810,5764,2954,night,46:50 - 96:04,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 1.",2025-12-12T17:03:22.404034
+E,1,weekday,v_E_1,3,6096,6695,599,night,101:36 - 111:35,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 1.",2025-12-12T17:03:22.404039
+E,1,weekday,v_E_1,4,6817,8317,1500,night,113:37 - 138:37,Cooking (night),"Cooking lunch in kitchen with TV on background. Household E, Day 1.",2025-12-12T17:03:22.404044
+E,1,weekday,v_E_1,5,8743,11748,3005,night,145:43 - 195:48,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 1.",2025-12-12T17:03:22.404048
+E,2,weekday,v_E_2,1,304,2250,1946,night,05:04 - 37:30,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household E, Day 2.",2025-12-12T17:03:22.404054
+E,2,weekday,v_E_2,2,2692,4004,1312,night,44:52 - 66:44,Movie Night (night),"Family watching a movie with lights dimmed. Household E, Day 2.",2025-12-12T17:03:22.404059
+E,2,weekday,v_E_2,3,4365,4906,541,night,72:45 - 81:46,Morning News (night),"Watching morning news while drinking coffee. Household E, Day 2.",2025-12-12T17:03:22.404064
+E,2,weekday,v_E_2,4,5215,6930,1715,night,86:55 - 115:30,Morning News (night),"Watching morning news while drinking coffee. Household E, Day 2.",2025-12-12T17:03:22.404068
+E,2,weekday,v_E_2,5,7339,8617,1278,night,122:19 - 143:37,Evening News (night),"Family watching evening news together. Household E, Day 2.",2025-12-12T17:03:22.404073
+E,2,weekday,v_E_2,6,8730,11706,2976,night,145:30 - 195:06,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 2.",2025-12-12T17:03:22.404078
+E,2,weekday,v_E_2,7,11850,14976,3126,night,197:30 - 249:36,Evening News (night),"Family watching evening news together. Household E, Day 2.",2025-12-12T17:03:22.404083
+E,2,weekday,v_E_2,8,15352,18444,3092,night,255:52 - 307:24,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 2.",2025-12-12T17:03:22.404087
+E,2,weekday,v_E_2,9,18589,19001,412,night,309:49 - 316:41,Movie Night (night),"Family watching a movie with lights dimmed. Household E, Day 2.",2025-12-12T17:03:22.404094
+E,3,weekend,v_E_3,1,431,1664,1233,night,07:11 - 27:44,Cooking (night),"Cooking lunch in kitchen with TV on background. Household E, Day 3.",2025-12-12T17:03:22.404100
+E,3,weekend,v_E_3,2,1777,3998,2221,night,29:37 - 66:38,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 3.",2025-12-12T17:03:22.404105
+E,3,weekend,v_E_3,3,4321,6822,2501,night,72:01 - 113:42,Evening News (night),"Family watching evening news together. Household E, Day 3.",2025-12-12T17:03:22.404110
+E,3,weekend,v_E_3,4,6964,7350,386,night,116:04 - 122:30,Phone Usage (night),"Watching TV while scrolling on smartphone. Household E, Day 3.",2025-12-12T17:03:22.404115
+E,3,weekend,v_E_3,5,7853,8876,1023,night,130:53 - 147:56,Evening News (night),"Family watching evening news together. Household E, Day 3.",2025-12-12T17:03:22.404119
+E,3,weekend,v_E_3,6,8961,9765,804,night,149:21 - 162:45,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household E, Day 3.",2025-12-12T17:03:22.404125
+E,3,weekend,v_E_3,7,10228,12110,1882,night,170:28 - 201:50,Cooking (night),"Cooking lunch in kitchen with TV on background. Household E, Day 3.",2025-12-12T17:03:22.404130
+E,3,weekend,v_E_3,8,12556,14501,1945,night,209:16 - 241:41,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household E, Day 3.",2025-12-12T17:03:22.404135
+E,3,weekend,v_E_3,9,14569,15095,526,night,242:49 - 251:35,Evening News (night),"Family watching evening news together. Household E, Day 3.",2025-12-12T17:03:22.404140
+E,3,weekend,v_E_3,10,15291,17821,2530,night,254:51 - 297:01,Phone Usage (night),"Watching TV while scrolling on smartphone. Household E, Day 3.",2025-12-12T17:03:22.404144
+E,3,weekend,v_E_3,11,18041,20260,2219,night,300:41 - 337:40,Phone Usage (night),"Watching TV while scrolling on smartphone. Household E, Day 3.",2025-12-12T17:03:22.404149
+E,3,weekend,v_E_3,12,20545,21126,581,night,342:25 - 352:06,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household E, Day 3.",2025-12-12T17:03:22.404154
+E,3,weekend,v_E_3,13,21609,23484,1875,morning,360:09 - 391:24,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household E, Day 3.",2025-12-12T17:03:22.404158
+E,4,weekend,v_E_4,1,451,929,478,night,07:31 - 15:29,Evening News (night),"Family watching evening news together. Household E, Day 4.",2025-12-12T17:03:22.404164
+E,4,weekend,v_E_4,2,1260,4005,2745,night,21:00 - 66:45,Morning News (night),"Watching morning news while drinking coffee. Household E, Day 4.",2025-12-12T17:03:22.404186
+E,4,weekend,v_E_4,3,4551,5582,1031,night,75:51 - 93:02,Evening News (night),"Family watching evening news together. Household E, Day 4.",2025-12-12T17:03:22.404194
+E,4,weekend,v_E_4,4,5759,6723,964,night,95:59 - 112:03,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household E, Day 4.",2025-12-12T17:03:22.404200
+E,4,weekend,v_E_4,5,6911,7880,969,night,115:11 - 131:20,Phone Usage (night),"Watching TV while scrolling on smartphone. Household E, Day 4.",2025-12-12T17:03:22.404206
+E,4,weekend,v_E_4,6,8268,10586,2318,night,137:48 - 176:26,Documentary (night),"Sitting on sofa watching nature documentary. Household E, Day 4.",2025-12-12T17:03:22.404211
+F,1,weekday,v_F_1,1,510,2238,1728,night,08:30 - 37:18,Evening News (night),"Family watching evening news together. Household F, Day 1.",2025-12-12T17:03:22.404219
+F,1,weekday,v_F_1,2,2656,5641,2985,night,44:16 - 94:01,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 1.",2025-12-12T17:03:22.404224
+F,1,weekday,v_F_1,3,6183,6538,355,night,103:03 - 108:58,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 1.",2025-12-12T17:03:22.404230
+F,1,weekday,v_F_1,4,7060,10155,3095,night,117:40 - 169:15,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 1.",2025-12-12T17:03:22.404235
+F,1,weekday,v_F_1,5,10733,14174,3441,night,178:53 - 236:14,Morning News (night),"Watching morning news while drinking coffee. Household F, Day 1.",2025-12-12T17:03:22.404242
+F,1,weekday,v_F_1,6,14674,15894,1220,night,244:34 - 264:54,Cooking (night),"Cooking lunch in kitchen with TV on background. Household F, Day 1.",2025-12-12T17:03:22.404249
+F,1,weekday,v_F_1,7,16296,18030,1734,night,271:36 - 300:30,Cooking (night),"Cooking lunch in kitchen with TV on background. Household F, Day 1.",2025-12-12T17:03:22.404254
+F,1,weekday,v_F_1,8,18507,19995,1488,night,308:27 - 333:15,Evening News (night),"Family watching evening news together. Household F, Day 1.",2025-12-12T17:03:22.404259
+F,1,weekday,v_F_1,9,20170,21853,1683,night,336:10 - 364:13,Evening News (night),"Family watching evening news together. Household F, Day 1.",2025-12-12T17:03:22.404264
+F,1,weekday,v_F_1,10,22241,22590,349,morning,370:41 - 376:30,Cooking (morning),"Cooking lunch in kitchen with TV on background. Household F, Day 1.",2025-12-12T17:03:22.404269
+F,1,weekday,v_F_1,11,23098,23419,321,morning,384:58 - 390:19,Documentary (morning),"Sitting on sofa watching nature documentary. Household F, Day 1.",2025-12-12T17:03:22.404274
+F,1,weekday,v_F_1,12,23701,26180,2479,morning,395:01 - 436:20,Evening News (morning),"Family watching evening news together. Household F, Day 1.",2025-12-12T17:03:22.404279
+F,1,weekday,v_F_1,13,26759,28857,2098,morning,445:59 - 480:57,Sleeping (morning),"TV on but person appears to be sleeping on sofa. Household F, Day 1.",2025-12-12T17:03:22.404284
+F,1,weekday,v_F_1,14,29345,32547,3202,morning,489:05 - 542:27,Phone Usage (morning),"Watching TV while scrolling on smartphone. Household F, Day 1.",2025-12-12T17:03:22.404288
+F,1,weekday,v_F_1,15,32875,34710,1835,morning,547:55 - 578:30,Documentary (morning),"Sitting on sofa watching nature documentary. Household F, Day 1.",2025-12-12T17:03:22.404293
+F,2,weekday,v_F_2,1,319,2745,2426,night,05:19 - 45:45,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 2.",2025-12-12T17:03:22.404303
+F,2,weekday,v_F_2,2,2936,4540,1604,night,48:56 - 75:40,Phone Usage (night),"Watching TV while scrolling on smartphone. Household F, Day 2.",2025-12-12T17:03:22.404308
+F,2,weekday,v_F_2,3,5106,7766,2660,night,85:06 - 129:26,Evening News (night),"Family watching evening news together. Household F, Day 2.",2025-12-12T17:03:22.404313
+F,2,weekday,v_F_2,4,8023,10320,2297,night,133:43 - 172:00,Phone Usage (night),"Watching TV while scrolling on smartphone. Household F, Day 2.",2025-12-12T17:03:22.404330
+F,2,weekday,v_F_2,5,10810,12252,1442,night,180:10 - 204:12,Phone Usage (night),"Watching TV while scrolling on smartphone. Household F, Day 2.",2025-12-12T17:03:22.404336
+F,3,weekend,v_F_3,1,553,3894,3341,night,09:13 - 64:54,Cooking (night),"Cooking lunch in kitchen with TV on background. Household F, Day 3.",2025-12-12T17:03:22.404342
+F,3,weekend,v_F_3,2,4169,5307,1138,night,69:29 - 88:27,Evening News (night),"Family watching evening news together. Household F, Day 3.",2025-12-12T17:03:22.404346
+F,3,weekend,v_F_3,3,5824,8834,3010,night,97:04 - 147:14,Morning News (night),"Watching morning news while drinking coffee. Household F, Day 3.",2025-12-12T17:03:22.404351
+F,3,weekend,v_F_3,4,9041,10018,977,night,150:41 - 166:58,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 3.",2025-12-12T17:03:22.404356
+F,3,weekend,v_F_3,5,10178,12089,1911,night,169:38 - 201:29,Cooking (night),"Cooking lunch in kitchen with TV on background. Household F, Day 3.",2025-12-12T17:03:22.404361
+F,3,weekend,v_F_3,6,12268,12657,389,night,204:28 - 210:57,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 3.",2025-12-12T17:03:22.404366
+F,3,weekend,v_F_3,7,13210,15481,2271,night,220:10 - 258:01,Morning News (night),"Watching morning news while drinking coffee. Household F, Day 3.",2025-12-12T17:03:22.404371
+F,3,weekend,v_F_3,8,15712,19216,3504,night,261:52 - 320:16,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 3.",2025-12-12T17:03:22.404376
+F,3,weekend,v_F_3,9,19709,20766,1057,night,328:29 - 346:06,Documentary (night),"Sitting on sofa watching nature documentary. Household F, Day 3.",2025-12-12T17:03:22.404381
+F,3,weekend,v_F_3,10,21296,23555,2259,night,354:56 - 392:35,Evening News (night),"Family watching evening news together. Household F, Day 3.",2025-12-12T17:03:22.404386
+F,4,weekend,v_F_4,1,550,3916,3366,night,09:10 - 65:16,Morning News (night),"Watching morning news while drinking coffee. Household F, Day 4.",2025-12-12T17:03:22.404391
+F,4,weekend,v_F_4,2,4458,6518,2060,night,74:18 - 108:38,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 4.",2025-12-12T17:03:22.404396
+F,4,weekend,v_F_4,3,6914,8171,1257,night,115:14 - 136:11,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 4.",2025-12-12T17:03:22.404401
+F,4,weekend,v_F_4,4,8353,8756,403,night,139:13 - 145:56,Evening News (night),"Family watching evening news together. Household F, Day 4.",2025-12-12T17:03:22.404406
+F,4,weekend,v_F_4,5,9017,9838,821,night,150:17 - 163:58,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 4.",2025-12-12T17:03:22.404411
+F,4,weekend,v_F_4,6,9966,10519,553,night,166:06 - 175:19,Sleeping (night),"TV on but person appears to be sleeping on sofa. Household F, Day 4.",2025-12-12T17:03:22.404441
+F,4,weekend,v_F_4,7,10651,11789,1138,night,177:31 - 196:29,Morning News (night),"Watching morning news while drinking coffee. Household F, Day 4.",2025-12-12T17:03:22.404458
+F,4,weekend,v_F_4,8,12149,15005,2856,night,202:29 - 250:05,Phone Usage (night),"Watching TV while scrolling on smartphone. Household F, Day 4.",2025-12-12T17:03:22.404463
+F,4,weekend,v_F_4,9,15241,18230,2989,night,254:01 - 303:50,Movie Night (night),"Family watching a movie with lights dimmed. Household F, Day 4.",2025-12-12T17:03:22.404468

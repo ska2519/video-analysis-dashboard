@@ -20,17 +20,120 @@ if not API_KEY or not INDEX_ID or not VIDEO_ID:
 # Initialize Twelve Labs Client
 client = TwelveLabs(api_key=API_KEY)
 
-# === 2. Marengo: Visual Search ===
+# === 2. Chapters-based Analysis ===
+def analyze_with_chapters():
+    """
+    Chapters 기능을 사용하여 비디오를 의미있는 챕터로 자동 분할
+    - 한 번의 API 호출로 전체 비디오 분석
+    - 간결하고 활동 중심의 설명 생성
+    - 불필요한 배경 묘사 제거
+    """
+    print(f"--- Analyzing Video with Chapters: {VIDEO_ID} ---\n")
+    
+    try:
+        print("1. Generating chapters for the entire video...")
+        print("   (This may take a moment...)\n")
+        
+        # Chapters API call
+        result = client.summarize(
+            video_id=VIDEO_ID,
+            type="chapter",  # Key: use "chapter" type
+            prompt="""
+Generate chapters focused on daily life activities.
+
+Chapter description rules:
+- Limit to one or two sentences
+- Include only people's main actions (e.g., "using laptop", "watching TV", "cooking", "talking")
+- Absolutely exclude background, environment, or object location descriptions
+- Include time of day when possible (morning/afternoon/evening)
+
+Good examples:
+- "Morning - Husband using laptop and phone at dining table, sharing screen with wife"
+- "Afternoon - Couple watching documentary on TV from sofa while talking"
+- "Evening - Wife alone on sofa working on laptop while watching TV, with cat"
+
+Bad examples (absolutely forbidden):
+- "The video captures a detailed scene..." 
+- "The environment is meticulously presented..."
+- "The camera is positioned at a high angle..."
+- Any descriptions of hallways, boxes, doors, or room layouts
+
+Describe only people's actions and activities concisely.
+            """,
+            temperature=0.2  # Low value for consistent and concise output
+        )
+        
+        print(f"2. Successfully generated {len(result.chapters)} chapters!\n")
+        
+        # === 3. 결과 처리 및 저장 ===
+        chapters_data = []
+        
+        print("=" * 80)
+        print("CHAPTERS SUMMARY")
+        print("=" * 80)
+        
+        for i, chapter in enumerate(result.chapters, 1):
+            # 시간 포맷팅 (초 → 분:초)
+            start_min = int(chapter.start // 60)
+            start_sec = int(chapter.start % 60)
+            end_min = int(chapter.end // 60)
+            end_sec = int(chapter.end % 60)
+            
+            time_range = f"{start_min:02d}:{start_sec:02d} - {end_min:02d}:{end_sec:02d}"
+            
+            print(f"\n챕터 {i}: {time_range}")
+            print(f"  제목: {chapter.chapter_title}")
+            if hasattr(chapter, 'chapter_summary') and chapter.chapter_summary:
+                print(f"  설명: {chapter.chapter_summary}")
+            print("-" * 80)
+            
+            # 데이터 저장
+            chapters_data.append({
+                "video_id": VIDEO_ID,
+                "chapter_number": i,
+                "start_time": chapter.start,
+                "end_time": chapter.end,
+                "duration_seconds": chapter.end - chapter.start,
+                "time_range": time_range,
+                "chapter_title": chapter.chapter_title,
+                "chapter_summary": getattr(chapter, 'chapter_summary', ''),
+                "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
+            })
+        
+        # === 4. CSV 저장 ===
+        if chapters_data:
+            df = pd.DataFrame(chapters_data)
+            output_file = "chapters_result.csv"
+            df.to_csv(output_file, index=False)
+            
+            print("\n" + "=" * 80)
+            print(f"3. Analysis complete! Results saved to '{output_file}'")
+            print("=" * 80)
+            print("\n📊 Preview of results:")
+            print(df[['chapter_number', 'time_range', 'chapter_title']].to_string(index=False))
+            print(f"\n✅ Total chapters: {len(chapters_data)}")
+            print(f"✅ Total video duration: ~{int(chapters_data[-1]['end_time'] / 60)} minutes")
+            
+            return chapters_data
+        else:
+            print("⚠️  No chapters were generated.")
+            return []
+            
+    except Exception as e:
+        print(f"❌ Error during chapter generation: {e}")
+        print(f"   Error type: {type(e).__name__}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+
+# === 5. 레거시 함수들 (백업용, 사용 안 함) ===
 def search_marengo(query):
     """
-    Search for video segments matching the query using Marengo via SDK.
+    [DEPRECATED] 이전 방식: Search API 사용
+    Chapters 방식에서는 사용하지 않음
     """
     try:
-        # Docs: https://docs.twelvelabs.io/v1.3/sdk-reference/python/search
-        # Method: client.search.query(..., query_text=..., ...)
-        
-        # Searching...
-        # We search specifically for visual content.
         task = client.search.query(
             index_id=INDEX_ID,
             query_text=query,
@@ -38,110 +141,27 @@ def search_marengo(query):
         )
         
         results = []
-        
-        # 'task' is a SyncPager object which is iterable.
-        # Iterate through all pages/items.
         for item in task:
-            # item is a SearchItem (or similar object)
-            # Attributes: video_id, score, start, end, etc.
-            
-            # Client-side filtering for specific video
             if item.video_id == VIDEO_ID:
-                # Handle potential None values safely
-                s_stat = item.start if item.start is not None else 0.0
-                e_stat = item.end if item.end is not None else 0.0
-                sc_stat = item.score if item.score is not None else 0.0
-                
                 results.append({
-                    'start': s_stat,
-                    'end': e_stat,
-                    'score': sc_stat
+                    'start': item.start if item.start is not None else 0.0,
+                    'end': item.end if item.end is not None else 0.0,
+                    'score': item.score if item.score is not None else 0.0
                 })
-                
         return results
-
     except Exception as e:
-        print(f"Search Error (SDK): {e}")
+        print(f"Search Error: {e}")
         return []
 
-# === 3. Pegasus: Text Generation (via Summarize) ===
-def generate_pegasus(video_id, start, end, prompt):
-    """
-    Generate a text description using Pegasus via SDK (Summarize endpoint).
-    Since 'generate' endpoint is not checking out, we use 'summarize' with specific prompt.
-    """
-    try:
-        # SDK Usage: client.summarize(video_id, type="summary", prompt=...)
-        # We inject time context into the prompt because summarize works on whole video by default.
-        
-        time_context_prompt = f"Based on the video segment from {start:.1f}s to {end:.1f}s, {prompt}"
-        
-        res = client.summarize(
-            video_id=video_id,
-            type="summary",
-            prompt=time_context_prompt
-        )
-        return res.summary
-    except Exception as e:
-         print(f"Generation Error (SDK): {e}")
-         return "Error generating text"
 
-# === 4. Main Analysis Logic ===
-def run_analysis():
-    print(f"--- Starting Analysis for Video: {VIDEO_ID} ---")
-    
-    # 1. Search for relevant actions
-    # User requested to change query to find a person
-    search_query = "person" 
-    print(f"1. Searching Marengo (SDK) with query: '{search_query}'...")
-    
-    # Note: Search in SDK might be slightly different than raw API filter.
-    # Since we can't easily pass 'filter' to `search.query` in all SDK versions,
-    # we'll search and then filter in python as implemented in `search_marengo`.
-    search_results = search_marengo(search_query)
-    
-    if not search_results:
-        print("No search results found (or error occurred).")
-        return
-
-    print(f"2. Found {len(search_results)} segments. Starting Pegasus analysis...")
-    
-    final_data = []
-    
-    for i, item in enumerate(search_results):
-        start = item['start']
-        end = item['end']
-        score = item['score']
-        
-        print(f"   Processing segment {i+1}/{len(search_results)}: {start:.1f}s - {end:.1f}s (Score: {score:.2f})")
-        
-        # Pegasus Prompt
-        pegasus_prompt = "describe specifically what the person is doing with the device and their body posture."
-        
-        # Use updated generate function
-        description = generate_pegasus(VIDEO_ID, start, end, pegasus_prompt)
-        
-        row = {
-            "video_id": VIDEO_ID,
-            "start_time": start,
-            "end_time": end,
-            "confidence_score": score,
-            "ai_description": description,
-            "detected_action": "Device Interaction",
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S")
-        }
-        final_data.append(row)
-        
-        # Rate limiting politeness
-        time.sleep(1)
-
-    # === 5. Save Results ===
-    if final_data:
-        df = pd.DataFrame(final_data)
-        output_file = "analysis_result.csv"
-        df.to_csv(output_file, index=False)
-        print(f"3. Analysis complete! Results saved to '{output_file}'.")
-        print(df[['start_time', 'end_time', 'ai_description']].head())
-
+# === 6. Main Entry Point ===
 if __name__ == "__main__":
-    run_analysis()
+    print("\n" + "🎬" * 40)
+    print("  Twelve Labs Video Analysis - Chapters Mode")
+    print("🎬" * 40 + "\n")
+    
+    analyze_with_chapters()
+    
+    print("\n" + "✨" * 40)
+    print("  Analysis Complete!")
+    print("✨" * 40 + "\n")

@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Video files
+videos/
+*.mp4
+
+# Data (optional, but good to exclude large data)
+# data/
