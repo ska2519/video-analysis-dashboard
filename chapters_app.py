@@ -133,12 +133,12 @@ with st.sidebar:
     
     col_lang1, col_lang2 = st.columns(2)
     with col_lang1:
-        if st.button("🇺🇸 English", use_container_width=True, 
+        if st.button("🇺🇸 English", width="stretch", 
                      type="primary" if st.session_state.language == 'en' else "secondary"):
             st.session_state.language = 'en'
             st.rerun()
     with col_lang2:
-        if st.button("🇰🇷 한국어", use_container_width=True,
+        if st.button("🇰🇷 한국어", width="stretch",
                      type="primary" if st.session_state.language == 'ko' else "secondary"):
             st.session_state.language = 'ko'
             st.rerun()

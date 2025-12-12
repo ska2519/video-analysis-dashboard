@@ -134,12 +134,12 @@ with st.sidebar:
     
     col1, col2 = st.columns(2)
     with col1:
-        if st.button("🇺🇸 English", use_container_width=True,
+        if st.button("🇺🇸 English", width="stretch",
                      type="primary" if st.session_state.language == 'en' else "secondary"):
             st.session_state.language = 'en'
             st.rerun()
     with col2:
-        if st.button("🇰🇷 한국어", use_container_width=True,
+        if st.button("🇰🇷 한국어", width="stretch",
                      type="primary" if st.session_state.language == 'ko' else "secondary"):
             st.session_state.language = 'ko'
             st.rerun()
@@ -156,7 +156,7 @@ with st.sidebar:
         st.session_state.selected_households = all_households
 
     # Select All Button
-    if st.button(t('select_all'), key="btn_select_all", use_container_width=True):
+    if st.button(t('select_all'), key="btn_select_all", width="stretch"):
         st.session_state.selected_households = all_households
         st.rerun()
 
@@ -210,14 +210,14 @@ with col4:
 st.divider()
 
 # === 6. Tabs ===
-tab1, tab2, tab3, tab4 = st.tabs([
-    t('overview'),
-    t('comparison'),
+tab_ai, tab_timeline, tab_overview, tab_comparison = st.tabs([
+    t('ai_opportunities'),
     t('timeline'),
-    t('ai_opportunities')
+    t('overview'),
+    t('comparison')
 ])
 
-with tab1:
+with tab_overview:
     st.subheader(t('household_activity_overview'))
     
     # Total chapters by household
@@ -255,7 +255,7 @@ with tab1:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-with tab2:
+with tab_comparison:
     st.subheader(t('household_comparison_header'))
     
     # Select households to compare
@@ -295,7 +295,7 @@ with tab2:
     else:
         st.info(t('select_compare_min'))
 
-with tab3:
+with tab_timeline:
     st.subheader(t('timeline_analysis_header'))
     
     # Select a household for timeline
@@ -318,6 +318,7 @@ with tab3:
         labels={'day_number': 'Day', 'time_of_day': 'Time of Day'}
     )
     
+    fig.update_yaxes(autorange="reversed") # Make day 1 appear at top
     st.plotly_chart(fig, use_container_width=True)
     
     # Chapter list
@@ -334,10 +335,16 @@ with tab3:
                     st.caption(row['chapter_summary'])
                 st.divider()
 
-with tab4:
+with tab_ai:
     st.subheader(t('ai_opportunities_header'))
+    
+    # Placeholder for MVP
     st.info(t('ai_coming_soon'))
     st.markdown(t('ai_section_desc'))
+    
+    # Show dummy AI opportunities for visualization if we have any, or just static illustrative content
+    # For now, keeping the static text as placeholder logic is not fully implemented
+
 
 # Footer
 st.markdown("---")
